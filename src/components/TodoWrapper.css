@@ -1,0 +1,106 @@
+.todo-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* margin-bottom: 10px; */
+    /* flex-direction: column; */
+    /* height: 100vh; */
+    
+    
+}
+.todo-main{
+    width: 40%;
+    /* height: 40%; */
+    height: 40rem;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 2rem 0rem 2rem 0rem;
+    border: 1px solid #000;
+    background-color: #ff5757;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.display-todo{
+    max-height: 30rem;
+    overflow-y: auto;
+    /* border: 1px solid #000; */
+    width: 100%;
+    display:flex;
+    height: 100vh;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    /* padding-top: 20px; */
+}
+
+@media screen and (max-width:1045px) and (min-width:668px) {
+    /* .todo-wrapper{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        /* margin-bottom: 10px; */
+        /* flex-direction: column; */
+        /* height: 100vh; */
+        
+        
+    
+    .todo-main{
+        width: 60%;
+        /* height: 40%; */
+        height: 40rem;
+        border-radius: 5px;
+        margin-top: 50px;
+        padding: 2rem 0rem 2rem 0rem;
+        border: 1px solid #000;
+        background-color: #ff5757;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        color: white;
+    }
+    
+}
+@media screen and (min-width:458px) and  (max-width:668px) {
+    .todo-main{
+        width: 80%;
+
+        height: 40rem;
+        border-radius: 5px;
+        margin-top: 40px;
+        padding: 2rem 0rem 2rem 0rem;
+        border: 1px solid #000;
+        background-color: #ff5757;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        color: white;
+    }
+}
+@media screen and (max-width:457px) {
+    .todo-main{
+        width: 100%;
+        border-radius: 5px;
+        padding: 2rem 0rem 2rem 0rem;
+        border: 1px solid #000;
+        background-color: #ff5757;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        color: white;
+        margin-top: 0%;
+    }
+    h1{
+        font-size: 30px;
+    }
+}

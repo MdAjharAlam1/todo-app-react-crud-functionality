@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #000; */
+    padding: 15px 10px;
+    /* padding: 0.5rem 1rem; */
+    background-color: rgb(98, 55, 205);
+    width: 80%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    /* margin: 8px 0px;  */
+    
+}
+.todo > p{
+    margin-left: 20px;
+}
+.todo-icon{
+    display:flex;
+    gap: 20px;
+    align-items:center;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+    cursor: pointer;
+}
+.incompleted{
+    cursor: pointer;
+    color: white;
+}
